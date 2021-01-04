@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Registration page for Manufacturers</title>
+        <link rel="stylesheet" href="../css/styles.css">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+
+        <!-- GOOGLE FONTS -->
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="registration-container">
+            <p class="doctor-registration-quote">A perfect place <br> to  sell your <br> best dental <br> equipments.</p>
+            <div class="register-card">
+                <div class="registration-details">
+              
+                  <h1 class="register-title">REGISTER HERE</h1>
+                 
+            
+                  
+                  <label ><b>Name</b></label>
+                  <input class="register-page-textbox" type="text" name="username" id="username" required>
+                  <p class="validation">FirstName LastName</p>
+                  <!-- <br> -->
+            
+                  <label><b>Contact</b></label>
+                  <input class="register-page-textbox" type="text" name="contact" id="contact" pattern="\d{10}" required>
+                  <p class="validation">Valid phone number of 10 digits</p>
+                  <!-- <br> -->
+            
+                  <label ><b>Email</b></label>
+                  <input class="register-page-textbox" type="text" name="email" id="email" pattern="((^[a-z]+[\.]*[0-9]*)@([\w]+)([\.])([a-z]{2,3}$))" required>
+                  <p class="validation">Valid email eg. xyz@gmail.com</p>
+                  <!-- <br> -->
+              
+                  <label><b>Password</b></label>
+                  <input class="register-page-textbox" type="password" name="password" id="password" required>
+                  <p class="validation">at least 1 uppercase letter, 1 lowercase <br> letter and 1 digit</p>
+                  <!-- <br> -->
+                           
+                    
+                    <button type="submit" class="register-btn-register-page btn btn-light sign-up-button" onclick = "alertbox()">Register</button>
+                    <p class="already-have-an-acc"><center>Already have an account? <a href="manufacturer_login.html">Sign in</a>.</center></p>
+                </div>
+
+        </div>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
